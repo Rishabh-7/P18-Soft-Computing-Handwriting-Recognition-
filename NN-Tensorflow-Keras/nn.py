@@ -22,3 +22,8 @@ model.compile(optimizer = 'adam',
 
 # training the model
 model.fit(x_train, y_train, epochs=3)
+
+val_loss, val_acc = model.evaluate(x_test, y_test)
+# print(val_acc, val_loss)
+print("val_acc : ", val_acc)
+print("val_loss : ", val_loss)
