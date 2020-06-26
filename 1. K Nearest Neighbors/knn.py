@@ -108,7 +108,6 @@ plt.show()
 # log_file.close()
 
 
-
 # Show the Test Images with Original and Predicted Labels
 a = np.random.randint(1,50,20)
 for i in a:
