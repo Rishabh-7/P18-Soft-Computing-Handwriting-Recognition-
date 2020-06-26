@@ -113,4 +113,14 @@ iii) Random Forest Classifier:	96.82%
 i)	Three Layer Convolutional Neural Network using Tensorflow:	99.70%
 
 ii)	Three Layer Convolutional Neural Network using Keras and Theano: 98.75%
+
+
+Anurag’s, Simran’s and Rishabh’s  analysis on different models: 
+ 
+
+1. Larger  image size in case of Simran’s and Rishabh’s model makes the image shaper and easier to classify.
+2. Simran’s and Rishabh’s model has better hyperparameters, i.e more no. of hidden layers and more no. of neurons in each layer.
+3. Better choice of activation function (ReLU and Swish) for hidden layers makes the gradient descent function converge faster and thus makes training of larger sized neural network feasible. 
+4. Softmax function performs better than the sigmoid layer in the output layer because the sum of probabilities outputted by the output layer units is 1 incase of softmax. Hence, for multiclass classification(i.e when no. of output classes are more than 2) Softmax activation function is preferred over Sigmoid activation function.
+
 ```    
