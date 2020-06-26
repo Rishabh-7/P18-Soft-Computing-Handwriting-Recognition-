@@ -10,9 +10,9 @@ style.use('ggplot')
 
 
 # Save all the Print Statements in a Log file.
-old_stdout = sys.stdout
-log_file = open("summary.log","w")
-sys.stdout = log_file
+# old_stdout = sys.stdout
+# log_file = open("summary.log","w")
+# sys.stdout = log_file
 
 # Load MNIST Data
 print('\nLoading MNIST Data...')
@@ -100,8 +100,8 @@ plt.xlabel('Predicted label')
 plt.axis('off')
 plt.show()
 
-sys.stdout = old_stdout
-log_file.close()
+# sys.stdout = old_stdout
+# log_file.close()
 
 
 # Show the Test Images with Original and Predicted Labels
